@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
     color: aliceblue;
     font-family: 'Roboto', sans-serif;
 }
 
-hr{
+hr {
     border: none;
     background-color: white;
     height: 1px;
@@ -18,25 +18,25 @@ hr{
     margin: 0px;
 }
 
-h1{
+h1 {
     font-weight: 300;
 }
 
-h2{
-    font-weight: 300;  
+h2 {
+    font-weight: 300;
     font-size: 30px;
 }
 
-.header{
+.header {
     height: 300px;
     width: 100%;
-    margin-top: 75px;  
+    margin-top: 75px;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
-.navBar{
+.navBar {
     position: relative;
     left: 0;
     top: 0;
@@ -45,65 +45,65 @@ h2{
 
 }
 
-.navBar_wrap{
+.navBar_wrap {
     display: flex;
     justify-content: flex-end;
     height: 100%;
 }
 
-.hamb{
+.hamb {
     display: none;
 }
 
-.popup{
+.popup {
     display: none;
 }
 
-.menu > li > a {
+.menu>li>a {
     text-decoration: none;
-    
+
 }
 
-.menu > li {
+.menu>li {
     list-style-type: none;
 }
 
-.navBar_wrap .menu{
+.navBar_wrap .menu {
     display: flex;
 }
 
-.navBar_wrap .menu > li > a {
+.navBar_wrap .menu>li>a {
     display: flex;
     align-items: center;
     padding: 0 20px;
     color: rgba(255, 255, 255, 0.7);
 }
 
-.navBar_wrap .menu > li > a:hover {
-    color:rgb(0, 0, 0), 1;
+.navBar_wrap .menu>li>a:hover {
+    color: rgb(0, 0, 0), 1;
 }
 
-.navItem{
-    padding-right: 20px;  
-    color: aliceblue; 
+.navItem {
+    padding-right: 20px;
+    color: aliceblue;
 }
 
-.h1HeaderContentText{
+.h1HeaderContentText {
     font-size: 60px;
     margin-bottom: 10px;
     margin-right: 142px;
     position: relative;
-    animation: shadow  2s infinite ease-in-out;
+    animation: shadow 2s infinite ease-in-out;
 }
 
-.h2HeaderContentText{
+.h2HeaderContentText {
     font-size: 35px;
     font-weight: 300;
     position: relative;
     margin: 10px 0px 28px 44px;
 }
 
-.wrapper{
+.wrapper {
     width: 1100px;
     display: flex;
     flex-direction: column;
@@ -111,15 +111,15 @@ h2{
     margin: auto;
 }
 
-.myFoto{
+.myFoto {
     width: 300px;
     height: 300px;
     border: 1px solid black;
     float: right;
-    
+
 }
 
-.headerLine{
+.headerLine {
     width: 1000px;
     display: flex;
     flex-direction: row-reverse;
@@ -127,34 +127,34 @@ h2{
     justify-content: flex-start;
 }
 
-.mainContainer{
+.mainContainer {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.liAsideContactsMail{
+.liAsideContactsMail {
     background-image: url(/assents/мэйл.png);
 }
 
-.liAsideContactsTelefon{
+.liAsideContactsTelefon {
     background-image: url(/assents/телефон.jpg);
 }
 
-.liAsideContactsLinkedin{
+.liAsideContactsLinkedin {
     background-image: url(/assents/линкидин.png);
 }
 
-.liAsideContactsDiscord{
+.liAsideContactsDiscord {
     background-image: url(/assents/дискорд.png);
 }
 
-.ulAsideContacts{
+.ulAsideContacts {
     display: flex;
     flex-direction: column;
     padding-left: 0px;
 }
 
-.liAsideContacts{
+.liAsideContacts {
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -166,76 +166,78 @@ h2{
     background-position: left center;
 }
 
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
 }
 
-.contact, .hardSkills, .softSkills{
+.contact,
+.hardSkills,
+.softSkills {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.hrefClick{
+.hrefClick {
     text-decoration: none;
     color: white;
 }
 
-.headerContent{
+.headerContent {
     margin-left: 40px;
 }
 
-.mainInformation{
+.mainInformation {
     background-color: rgb(35, 32, 32);
 }
 
-.mainInformationContainer{
+.mainInformationContainer {
     margin-left: 10px;
     margin-right: 10px;
 
 }
 
-.asideContainer{
+.asideContainer {
     background-color: rgb(25, 24, 24);
     width: 250px;
     height: 100%;
 }
 
-.skillsItemsLisst{
+.skillsItemsLisst {
     display: flex;
     flex-direction: column;
     padding-left: 0px;
 }
 
-.headerContentText{
+.headerContentText {
     font-family: 'Questrial', sans-serif
 }
 
-.skills_html{
+.skills_html {
     background-image: url(/assents/html.svg);
 }
 
-.skills_js{
+.skills_js {
     background-image: url(/assents/javascript.svg);
 }
 
-.skills_css{
+.skills_css {
     background-image: url(/assents/css.svg);
 }
 
-.skills_figma{
+.skills_figma {
     background-image: url(/assents/figma.svg);
 }
 
-.skills_git{
+.skills_git {
     background-image: url(/assents/github.svg);
 }
 
-.skills_language{
+.skills_language {
     background-image: url(/assents/png-clipart-speech-computer-icons-english-person-language-mimosa-tree-english-text.png);
 }
 
-.skills_items{
+.skills_items {
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -247,51 +249,52 @@ h2{
     background-position: left center;
 }
 
-.softSkillsList{
+.softSkillsList {
     padding-left: 20px;
 }
 
-.exampleCodBackspace{
+.exampleCodBackspace {
     background-color: black;
     height: auto;
-    margin: 15px; ;
+    margin: 15px;
+    ;
 }
 
-.footer{
+.footer {
     height: 80px;
     min-width: 1100px;
     background-color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
-.textFooter{
+.textFooter {
     font-family: 'Roboto', sans-serif;
     color: black;
     font-size: 40px;
     font-weight: 300;
 }
 
-.rs_school_js{
+.rs_school_js {
     width: 80px;
     height: 80px;
 }
 
-.marginBottomHr{
+.marginBottomHr {
     margin-bottom: 20px;
 }
 
-.h2marginInMainSection{
+.h2marginInMainSection {
     margin-left: 20px
 }
 
-.marginSectionInMain{
+.marginSectionInMain {
     margin-bottom: 20px;
 }
 
-.sliderContainer{
+.sliderContainer {
     width: 800px;
     height: 470px;
     background-color: black;
@@ -301,13 +304,13 @@ h2{
     align-items: center;
 }
 
-.slider{
+.slider {
     width: 760px;
     height: 430px;
     overflow: hidden;
 }
 
-.slider-line{
+.slider-line {
     height: 430px;
     width: 3800px;
     display: flex;
@@ -315,40 +318,40 @@ h2{
     left: 0;
 }
 
-.imgSlider{
+.imgSlider {
     width: 760px;
     height: 430px;
 }
 
-.positionButton{
+.positionButton {
     display: flex;
     justify-content: space-evenly;
 }
 
-.btnLeft { 
-   background-color:  rgb(183, 233, 251);
-   padding: 15px 32px;
-   border-radius: 4px;
-   text-align:center;
+.btnLeft {
+    background-color: rgb(183, 233, 251);
+    padding: 15px 32px;
+    border-radius: 4px;
+    text-align: center;
 }
 
-.btnLeft:hover{
-    background-color:  rgb(171, 171, 171);
+.btnLeft:hover {
+    background-color: rgb(171, 171, 171);
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(189, 189, 189, 0.24), 0 17px 50px 0 rgba(175, 175, 175, 0.19);
     color: white;
 }
 
-.btnRight{
+.btnRight {
     background-color: rgb(183, 233, 251);
     border-radius: 4px;
     padding: 15px 32px;
-    text-align:center;
+    text-align: center;
 }
 
 
-.btnRight:hover{
-    background-color:  rgb(171, 171, 171);
+.btnRight:hover {
+    background-color: rgb(171, 171, 171);
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(189, 189, 189, 0.24), 0 17px 50px 0 rgba(175, 175, 175, 0.19);
     color: white;
@@ -358,21 +361,25 @@ h2{
     .navBar_wrap .menu {
         display: none;
     }
-    .hamb{
+
+    .hamb {
         display: flex;
         align-items: center;
     }
-    .hamb_field{
+
+    .hamb_field {
         padding: 10px 20px;
     }
-    .bar{
+
+    .bar {
         display: block;
         width: 30px;
         height: 3px;
         margin: 6px auto;
         background: white;
     }
-    .popup{
+
+    .popup {
         position: fixed;
         top: -100%;
         width: 900px;
@@ -381,14 +388,15 @@ h2{
         display: flex;
         transition: 0.3s;
     }
-    .popup.open{
+
+    .popup.open {
         top: 0;
     }
 
-    .popup .menu{
+    .popup .menu {
         display: flex;
         align-items: flex-end;
-        
+
     }
 }
 
