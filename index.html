@@ -60,7 +60,7 @@
                     <div class="asideContainer">
                         <section class="contact">
                             <h2>Contacts</h2>
-                            <hr>
+                            <hr class="marginBottomHr">
                             <ul class="ulAsideContacts">
                                 <li class="liAsideContacts liAsideContactsMail" title="Follow the link"><a href="mailto:aleharedko@gmail.com" 
                                     class="hrefClick" target="_blank">Conect whith me</a></li>
@@ -90,7 +90,7 @@
 
                         <section class="softSkills">
                             <h2>Soft skills</h2>
-                            <hr>
+                            <hr class="marginBottomHr">
                             <ul class="softSkillsList">
                                 <li class="">Purposeful</li>
                                 <li class="">Fast learner</li>
@@ -103,38 +103,37 @@
 
                 <div class="mainInformation">
                     <div class="mainInformationContainer">
-                        <div class="shortlyAboutMySelf">
-                            <section>
-                                <h2 id="About_my_self">About my self</h2>
-                                <hr>
-                                <div class = "textShortlyAboutMySelf">
-                                    <p>I am a graduate of the Belarusian Pedagogical University. My specialty is chemistry and biology. Master of Chemical Sciences. And now I'm a beginner Front-End developer!!!</p>
-                                    <p>My main qualities are the ability to work in a team and the ability to learn quickly.
-                                        I am interested in the IT field because of the environment in which many young and motivated people are involved</p>
-                                    <p>Also at the moment I am actively learning how to use React.</p> 
-                                    <p>My passion is sports: athletics (running) and participation in environmental campaigns and projects.</p>
-                                    <p>Contacting me is very easy! Just click on the option that suits you best.</p>
-                                </div>
-                            </section>    
+                            <section class = "marginSectionInMain">
+                                <h2 id="About_my_self" class="h2marginInMainSection">About my self</h2>
+                                <hr class="marginBottomHr">
+                                <div >
+                                    <p class="textEducation">I am a graduate of the Belarusian Pedagogical University. My specialty is chemistry and biology. Master of Chemical Sciences. And now I'm a beginner Front-End developer!!!
+                                    My main qualities are the ability to work in a team and the ability to learn quickly.
+                                        I am interested in the IT field because of the environment in which many young and motivated people are involved
+                                    Also at the moment I am actively learning how to use React. 
+                                    My passion is sports: athletics (running) and participation in environmental campaigns and projects.
+                                    Contacting me is very easy! Just click on the option that suits you best.</p>
+                                </div> 
                         </div>
                             
-                        <div class="educationContant">
+                        <div class="marginSectionInMain">
                                 <section class="education">
-                                    <h2 id="Education">Education</h2>
-                                    <hr>
+                                    <h2 id="Education" class="h2marginInMainSection">Education</h2>
+                                    <hr class="marginBottomHr">
                                     <ul class="educationList">
                                         <li>Code-basics: JavaScript,CSS,HTML </li>
-                                        <li>The Rolling Scopes: JS / FRONT-END. STAGE 0; 1</li>  
-                                        <li>Udemy: Полный курс по JavaScript + React - с нуля до результата </li>
+                                        <li>The Rolling Scopes: JS / FRONT-END. STAGE 0; 1</li> 
+                                        <li>iTincubator: </li> 
+                                        <li>Udemy: Полный курс по JavaScript - с нуля до результата </li>
                                         <li>BSPU name M. Tanka - chemistry and biology teacher</li>
                                         <li>BSPU name M. Tanka - master's degree in chemistry</li>
                                     </ul>
                                 </section>
                         </div>
 
-                        <div class="demonstrationMyself">
-                            <h2 id="Presentation">Presentation</h2>
-                            <hr>
+                        <div class="demonstrationMyself marginSectionInMain">
+                            <h2 id="Presentation" class="h2marginInMainSection">Presentation</h2>
+                            <hr class="marginBottomHr">
                             <div class="sliderContainer">                            
                                 <div class="slider">
                                     <div class="slider-line">
@@ -146,31 +145,26 @@
                                         <img src="/assents/Screenshot_6.png" alt="success" class="imgSlider">
                                     </div>
                                 </div>
-                                
-                            </div >
                                 <div class='positionButton'>
                                     <button class="btnLeft"> < </button>
                                     <button class="btnRight"> > </button>
                                     <script src="/script.js" class="btnRight" ></script>
                                 </div>
-                           
                         </div>
 
-                        <div class="exampleCoD">
-                            <section class="example">
-                                <h2 id="Example_Code">Code Example</h2>
-                                <hr>
+                            <section class="example marginSectionInMain">
+                                <h2 id="Example_Code" class="h2marginInMainSection">Code Example</h2>
+                                <hr class="marginBottomHr">
                                     <div class="exampleCodContainer">
                                         <div class="exampleCodBackspace">
-                                            <pre>
-                                                <code>
+                                                <pre><code>
     let offset = 0;
     const sliderLine = document.querySelector('.slider-line');
 
     document.querySelector('.btnRight').addEventListener('click', function(){
-    offset = offset + 760;
-    if (offset > 3800){
-        offset = 0;
+        offset = offset + 760;
+        if (offset > 3800){
+            offset = 0;
     }
 
     sliderLine.style.left = - offset + 'px';
@@ -178,36 +172,33 @@
 
     document.querySelector('.btnLeft').addEventListener('click', function(){
     offset = offset - 760;
+
     if (offset < 0){
         offset = 3800;
     }
-    sliderLine.style.left = - offset + 'px';
+        sliderLine.style.left = - offset + 'px';
     })
-                                                </code>
-                                            </pre> 
+                                                </code></pre> 
+                                            
                                         </div>
                                     </div>
                             </section>  
-                        
                         </div> 
                         
-                        <div>
-                            <section>
-                                <h2>Completed projects</h2>
-                                <hr>
-                                <div>dsdads</div>
-                                <div>dadad</div>
-                                <div>dad</div>
+                            <section class="marginSectionInMain">
+                                <h2 class="h2marginInMainSection">Completed projects</h2>
+                                <hr class="marginBottomHr">
+                                <img src="" alt="">
+                                <img src="" alt="">
+                                <img src="" alt="">
                             </section>
-                        </div>
                             
                     </div>    
-               
-                 </div>    
+                </div>    
             </div>       
         </main>
         
-        <footer class="footer"> 
+        <footer class="footer wrapper"> 
                 <div class="textFooter">2022</div>
                 <img src="/assents/rs_school_js.svg" alt="rs_school_js" class="rs_school_js">   
         </footer>
