@@ -133,19 +133,19 @@ h2 {
 }
 
 .liAsideContactsMail {
-    background-image: url(/assents/mail.png);
+    background-image: url(assents/mail.png);
 }
 
 .liAsideContactsTelefon {
-    background-image: url(/assents//tetefon.jpg);
+    background-image: url(assents//tetefon.jpg);
 }
 
 .liAsideContactsLinkedin {
-    background-image: url(/assents/linkindin.png);
+    background-image: url(assents/linkindin.png);
 }
 
 .liAsideContactsDiscord {
-    background-image: url(/assents/discord.png);
+    background-image: url(assents/discord.png);
 }
 
 .ulAsideContacts {
@@ -214,27 +214,27 @@ h2 {
 }
 
 .skills_html {
-    background-image: url(/assents/html.svg);
+    background-image: url(assents/html.svg);
 }
 
 .skills_js {
-    background-image: url(/assents/javascript.svg);
+    background-image: url(assents/javascript.svg);
 }
 
 .skills_css {
-    background-image: url(/assents/css.svg);
+    background-image: url(assents/css.svg);
 }
 
 .skills_figma {
-    background-image: url(/assents/figma.svg);
+    background-image: url(assents/figma.svg);
 }
 
 .skills_git {
-    background-image: url(/assents/github.svg);
+    background-image: url(assents/github.svg);
 }
 
 .skills_language {
-    background-image: url(/assents/png-clipart-speech-computer-icons-english-person-language-mimosa-tree-english-text.png);
+    background-image: url(assents/png-clipart-speech-computer-icons-english-person-language-mimosa-tree-english-text.png);
 }
 
 .skills_items {
