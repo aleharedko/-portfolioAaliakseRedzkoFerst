@@ -260,6 +260,18 @@ h2 {
     ;
 }
 
+.imgCompletedProject{
+    width: 300px;
+    height: 150px;
+}
+
+.flexElementsInSectionProject{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
 .footer {
     height: 80px;
     min-width: 1100px;
