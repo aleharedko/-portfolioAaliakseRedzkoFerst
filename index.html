@@ -162,26 +162,32 @@
                                     <div class="exampleCodContainer">
                                         <div class="exampleCodBackspace">
                                                 <pre><code>
-    let offset = 0;
-    const sliderLine = document.querySelector('.slider-line');
+    const titel = document.createElement("h1")
+    titel.classList.add("titel")
+    titel.setAttribute("id", "course-title")
+    titel.textContent = date.titel
 
-    document.querySelector('.btnRight').addEventListener('click', function(){
-        offset = offset + 760;
-        if (offset > 3800){
-            offset = 0;
+    const list = document.createElement("ol")
+    list.classList.add("list")
+    const lessons = date.lessons
+    for (let i = 0; i < lessons.length; i++) {
+        const lesson = document.createElement("li")
+        lesson.classList.add("item")
+        if(lessons[i].isDone === true){
+            lessons.classList.add("Done")
+        }
+        lesson.textContent = lessons[i].titel
+        const deleteBtn = document.createElement("button")
+        
+        list.append(lesson)
     }
 
-    sliderLine.style.left = - offset + 'px';
-    });
+    container.append(
+        titel,
+        list
+    )
 
-    document.querySelector('.btnLeft').addEventListener('click', function(){
-    offset = offset - 760;
-
-    if (offset < 0){
-        offset = 3800;
-    }
-        sliderLine.style.left = - offset + 'px';
-    })
+    return container
                                                 </code></pre> 
                                             
                                         </div>
